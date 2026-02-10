@@ -470,7 +470,7 @@ void imprimirLabirinto(int l[n6][n6]) {
             if (l[m][n] == 0)
                 printf("  ");
             else
-                printf("¦ ");
+                printf("Â¦ ");
         }
         printf("\n");
     }
@@ -697,7 +697,7 @@ int main(){
     if (encontrarCaminho(matriz, inicioX, inicioY, destinoX, destinoY, visitado)) {
         printf("Caminho encontrado!\n");
     } else {
-        printf("Nenhum caminho possível.\n");
+        printf("Nenhum caminho possÃ­vel.\n");
     }  
 
     scanf("%d", &N);
@@ -719,7 +719,7 @@ int main(){
         printf("\nCaminho encontrado no labirinto:\n");
         imprimirLabirinto(labirinto);
     } else {
-        printf("\nNão há caminho possível.\n");
+        printf("\nNÃ£o hÃ¡ caminho possÃ­vel.\n");
     }
     
     scanf("%d", &pares);
